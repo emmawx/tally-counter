@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>Your digital tally counter:</h1>
+    <div class="container">
+        <div class="count-container">
+            <h2 id="count-el">0</h2>
+        </div>
+        <div class="buttons-container">
+            <div class="upper-row">
+                <button id="increment-btn" onclick="increment()">+</button>
+                <button id="decrease-btn" onclick="decrease()">-</button>
+            </div>
+            <div class="lower-row">
+                <button id="save-btn" onclick="save()">SAVE</button>
+                <button id="reset-btn" onclick="reset()">RESET</button>
+            </div>
+        </div>
+        <p id="save-el">Previous entries: </p>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
+
